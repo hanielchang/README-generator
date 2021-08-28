@@ -1,8 +1,8 @@
 
-# fafrwear
+# Password Generator
 
 ## Description
-gafdvgfsdg
+awetweat
 
 ## Table of Contents
 
@@ -10,23 +10,25 @@ gafdvgfsdg
 * [Usage](#usage)
 * [License](#license)
 * [Contributions](#contributions)
+* [Tests](#tests)
+* [Questions](#questions)
 
 ## Installation
-reatrat
+fddfdfd
 
 ## Usage
-artart
+fdfdfd
 
 ## License
-rtrtr
+fdfdfd
 
 ## Contributions
-trtrtr
+fdfdfd
 
 ## Tests
-trtrt
+fdfdfd
 
 ## Questions
-* GitHub username: rrtrtr
-* E-mail: rtrtrtr
+* GitHub username: fdfdfd
+* E-mail: fdfdfdfd
     

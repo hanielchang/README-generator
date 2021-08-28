@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateTemplate = require('./README-template');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -101,11 +102,57 @@ const questions = [
                 return false;
             }
         }
+    },
+    {
+        type: 'input',
+        name: 'userName',
+        message: 'What is your github user name?',
+        validate: nameInput => {
+            if (nameInput) {
+                return true;
+            }
+            else {
+                console.log('Invalid entry!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email?',
+        validate: nameInput => {
+            if (nameInput) {
+                return true;
+            }
+            else {
+                console.log('Invalid entry!');
+                return false;
+            }
+        }
     }
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    return new Promise((resolve, reject) => {
+        title = fileName.toLowerCase().split(' ').join('');
+        fs.writeFile(`./dist/${title}.md`, data, err => {
+            // if there's an error, reject the Promise and send the error to the Promise's `.catch()` method
+            if (err) {
+                reject(err);
+                // return out of the function here to make sure the Promise doesn't accidentally execute the resolve() function as well
+                return;
+            }
+
+            // if everything went well, resolve the Promise and send the successful data to the `.then()` method
+            resolve({
+                ok: true,
+                message: 'File created!'
+            });
+        });
+    });
+}
 
 // TODO: Create a function to initialize app
 // Here, I changed the name 'init' to 'promptUser', which makes more sense to me
@@ -116,6 +163,11 @@ function promptUser() {
 // Function call to initialize app
 promptUser()
     // .then(writeToFile(fileName, data))
-    .then( data => {
-        console.log(data);
-    });
+    .then(data => {
+        var template = generateTemplate(data);
+        var title = data.title;
+        writeToFile(title, template);
+    })
+
+
+

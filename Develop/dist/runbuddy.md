@@ -1,32 +1,32 @@
 
-    # Run Buddy
+# Run Buddy
 
-    ## Description
+## Description
     awerrwearw
 
-    ## Table of Contents
+## Table of Contents
 
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Credits](#credits)
-    * [License](#license)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
 
-    ## Installation
+## Installation
      zsdafgvdzsfg
 
-    ## Usage
+## Usage
     retartrwea
 
-    ## License
+## License
     vcvcvc
 
-    ## Contributions
+## Contributions
     safdaf
 
-    ## Tests
+## Tests
     bvcbvbv
 
-    ## Questions
-    * GitHub username: waewee
-    * E-mail: bcbcbcb
+## Questions
+* GitHub username: waewee
+* E-mail: bcbcbcb
     

@@ -13,8 +13,6 @@ ${README.description}
 * [Usage](#usage)
 * [License](#license)
 * [Contributions](#contributions)
-* [Tests](#tests)
-* [Questions](#questions)
 
 ## Installation
 ${README.installation}

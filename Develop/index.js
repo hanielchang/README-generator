@@ -136,7 +136,7 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     return new Promise((resolve, reject) => {
-        title = fileName.toLowerCase().split(' ').join('-');
+        title = fileName.toLowerCase().split(' ').join('');
         fs.writeFile(`./dist/${title}.md`, data, err => {
             // if there's an error, reject the Promise and send the error to the Promise's `.catch()` method
             if (err) {

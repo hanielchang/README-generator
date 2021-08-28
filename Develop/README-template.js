@@ -1,40 +1,38 @@
 module.exports = templateData => {
-    // console.log(templateData);
-    // this will create three variables based on data in templateData
-    const { title, ...README } = templateData;
+const { title, ...README } = templateData;
 
-    const ReadMeTemplate = `
-    # ${title}
+const ReadMeTemplate = `
+# ${title}
 
-    ## Description
-    ${README.description}
+## Description
+${README.description}
 
-    ## Table of Contents
+## Table of Contents
 
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Credits](#credits)
-    * [License](#license)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
 
-    ## Installation
-     ${README.installation}
+## Installation
+${README.installation}
 
-    ## Usage
-    ${README.usage}
+## Usage
+${README.usage}
 
-    ## License
-    ${README.license}
+## License
+${README.license}
 
-    ## Contributions
-    ${README.contributions}
+## Contributions
+${README.contributions}
 
-    ## Tests
-    ${README.tests}
+## Tests
+${README.tests}
 
-    ## Questions
-    * GitHub username: ${README.userName}
-    * E-mail: ${README.email}
+## Questions
+* GitHub username: ${README.userName}
+* E-mail: ${README.email}
     `;
 
-    return ReadMeTemplate;
+return ReadMeTemplate;
 };

@@ -1,8 +1,8 @@
 
-# Run Buddy
+# Password generator
 
 ## Description
-    asdf
+It's pretty cool
 
 ## Table of Contents
 
@@ -12,21 +12,21 @@
 * [License](#license)
 
 ## Installation
-     wetrjkre
+None really
 
 ## Usage
-    fjfjfjf
+Who cares
 
 ## License
-    ckckck
+Don't know
 
 ## Contributions
-    zlzlzl
+there are none
 
 ## Tests
-    eieiei
+no tests
 
 ## Questions
-    * GitHub username: dkdkdk
-    * E-mail: asdf
+* GitHub username: Hanielchang
+* E-mail: haniellloyd@gmail.com
     

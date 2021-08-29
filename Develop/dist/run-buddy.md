@@ -1,8 +1,8 @@
 
-# Password Generator
+# run buddy
 
 ## Description
-awetweat
+afeawrewar
 
 ## Table of Contents
 
@@ -14,21 +14,22 @@ awetweat
 * [Questions](#questions)
 
 ## Installation
-fddfdfd
+ccvbfsdgs
 
 ## Usage
-fdfdfd
+ererer
 
 ## License
-fdfdfd
+gfgfgf
 
 ## Contributions
-fdfdfd
+cvbvcvc
 
 ## Tests
-fdfdfd
+vcvcvcvc
 
 ## Questions
-* GitHub username: fdfdfd
-* E-mail: fdfdfdfd
+* GitHub username: hanielchang
+Link to profile: [a link](https://github.com/hanielchang)
+* E-mail: adfadfdafsa
     

@@ -1,8 +1,8 @@
 
-# run buddy
+# Run Buddy
 
 ## Description
-afeawrewar
+adsdsds
 
 ## Table of Contents
 
@@ -14,22 +14,22 @@ afeawrewar
 * [Questions](#questions)
 
 ## Installation
-ccvbfsdgs
+dfdfdfd
 
 ## Usage
-ererer
+fdfdfdf
 
 ## License
-gfgfgf
+dfdfdfdfd
 
 ## Contributions
-cvbvcvc
+dfdfdfd
 
 ## Tests
-vcvcvcvc
+dfdfdfd
 
 ## Questions
 * GitHub username: hanielchang
-Link to profile: [a link](https://github.com/hanielchang)
-* E-mail: adfadfdafsa
+Link: [Github Profile](https://github.com/hanielchang)
+* E-mail: dfdfdfd
     

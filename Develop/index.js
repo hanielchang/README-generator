@@ -62,9 +62,10 @@ const questions = [
         }
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'license',
         message: 'What license would you like to use?',
+        choices: ['MIT', 'Apache', 'GNU','OpenBSD', 'WordPress'],
         validate: nameInput => {
             if (nameInput) {
                 return true;
@@ -106,7 +107,7 @@ const questions = [
     {
         type: 'input',
         name: 'userName',
-        message: 'What is your github user name?',
+        message: 'What is your github user name? (case sensitive)',
         validate: nameInput => {
             if (nameInput) {
                 return true;

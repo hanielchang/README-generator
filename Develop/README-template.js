@@ -33,7 +33,7 @@ ${README.tests}
 
 ## Questions
 * GitHub username: ${README.userName}
-Link: [Github Profile](https://github.com/${README.userName})
+* [Link to Github Profile](https://github.com/${README.userName})
 * E-mail: ${README.email}
     `;
 

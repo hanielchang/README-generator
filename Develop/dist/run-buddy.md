@@ -6,12 +6,15 @@ adsdsds
 
 ## Table of Contents
 
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Contributions](#contributions)
-* [Tests](#tests)
-* [Questions](#questions)
+- [Run Buddy](#run-buddy)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributions](#contributions)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
 ## Installation
 dfdfdfd
@@ -30,6 +33,6 @@ dfdfdfd
 
 ## Questions
 * GitHub username: hanielchang
-Link: [Github Profile](https://github.com/hanielchang)
+* Link: [Github Profile](https://github.com/hanielchang)
 * E-mail: dfdfdfd
     

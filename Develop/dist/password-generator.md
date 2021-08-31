@@ -21,6 +21,7 @@ dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
 
 ## License
 MIT
+![https://img.shields.io/apm/l/vim-mode]()
 
 ## Contributions
 Make at least one contribution

@@ -24,6 +24,7 @@ ${README.usage}
 
 ## License
 ${README.license}
+![https://img.shields.io/apm/l/vim-mode]()
 
 ## Contributions
 ${README.contributions}
@@ -33,7 +34,7 @@ ${README.tests}
 
 ## Questions
 * GitHub username: ${README.userName}
-* [Link to Github Profile](https://github.com/${README.userName})
+* [Click here for Github Profile](https://github.com/${README.userName})
 * E-mail: ${README.email}
     `;
 

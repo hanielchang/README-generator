@@ -21,7 +21,7 @@ dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
 
 ## License
 MIT
-![https://img.shields.io/apm/l/vim-mode]()
+[![https://img.shields.io/apm/l/vim-mode]](https://github.com/hanielchang/README-generator/blob/main/Develop/dist/password-generator.md)
 
 ## Contributions
 Make at least one contribution

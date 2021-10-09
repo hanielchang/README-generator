@@ -1,8 +1,27 @@
-module.exports = templateData => {
-const { title, ...README } = templateData;
+const renderLicenseSection = require('./utils/generateMarkdown');
 
-const ReadMeTemplate = `
-# ${title}
+function renderLicenseBadge(license) {
+    switch (license) {
+        case 'MIT':
+            return 'MIT'
+        case 'Apache':
+            return 'Apache'
+        case 'GNU':
+            return 'GNU'
+        case 'OpenBSD':
+            return 'OpenBSD'
+        case 'WordPress':
+            return 'WordPress'
+        default:
+            return ''
+    }
+};
+
+module.exports = templateData => {
+    const { title, ...README } = templateData;
+
+    const ReadMeTemplate = `
+# ${title} ![GitHub License](https://img.shields.io/badge/license-${renderLicenseBadge(README.license)}-blue.svg)
 
 ## Description
 ${README.description}
@@ -22,9 +41,8 @@ ${README.installation}
 ## Usage
 ${README.usage}
 
-## License
-${README.license}
-![https://img.shields.io/apm/l/vim-mode]()
+## ${README.license} License
+${renderLicenseSection(README.license)}
 
 ## Contributions
 ${README.contributions}
@@ -38,5 +56,5 @@ ${README.tests}
 * E-mail: ${README.email}
     `;
 
-return ReadMeTemplate;
+    return ReadMeTemplate;
 };

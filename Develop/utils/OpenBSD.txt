@@ -1,0 +1,5 @@
+Copyright law is complex, OpenBSD policy is simple — OpenBSD strives to provide code that can be freely used, copied, modified, and distributed by anyone and for any purpose. This maintains the spirit of the original Berkeley Software Distribution. The preferred wording of a license to be applied to new code can be found in the license template.
+
+OpenBSD can exist as it does today because of the example set by the Computer Systems Research Group at Berkeley and the battles which they and others fought to create a Unix source distribution un-encumbered by proprietary code and commercial licensing.
+
+The ability of a freely redistributable "Berkeley" Unix to move forward on a competitive basis with other operating systems depends on the willingness of the various development groups to exchange code amongst themselves and with other projects. Understanding the legal issues surrounding copyright is fundamental to the ability to exchange and re-distribute code, while honoring the spirit of the copyright and concept of attribution is fundamental to promoting the cooperation of the people involved.

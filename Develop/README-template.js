@@ -41,7 +41,7 @@ ${README.installation}
 ## Usage
 ${README.usage}
 
-## ${README.license} License
+## License
 ${renderLicenseSection(README.license)}
 
 ## Contributions
